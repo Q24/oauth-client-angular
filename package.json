@@ -32,25 +32,19 @@
     "prepublishOnly": "npm run build",
     "build": "ng-packagr -p ng-package.json -c tsconfig.json"
   },
+  "dependencies": {
+    "@ilionx/oauth-client-core": "1.2.1"
+  },
   "devDependencies": {
     "@angular/common": "^12.0.0",
     "@angular/compiler": "^12.1.2",
     "@angular/compiler-cli": "^12.1.2",
     "@angular/core": "^12.0.0",
-    "@ilionx/oauth-client-core": "^1.2.1",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.24.0",
     "ng-packagr": "^12.0.0",
     "rxjs": "^6.6.7",
     "typescript": "^4.3.5"
-  },
-  "ngPackage": {
-    "lib": {
-      "entryFile": "src/public-api.ts"
-    }
-  },
-  "peerDependencies": {
-    "@ilionx/oauth-client-core": "^1.2.1"
   }
 }
