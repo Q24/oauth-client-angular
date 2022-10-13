@@ -51,6 +51,6 @@
     }
   },
   "peerDependencies": {
-    "@ilionx/oauth-client-core": "^1.0.1"
+    "@ilionx/oauth-client-core": "^1.2.1"
   }
 }
