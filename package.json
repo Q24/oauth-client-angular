@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "@ilionx/oauth-client-angular",
-  "version": "2.0.0-next.2",
+  "version": "2.0.0",
   "private": false,
   "description": "OAuth and OpenID client for Angular",
   "author": "ilionx",
