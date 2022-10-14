@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/@hawaii-framework/ngx-oidc-implicit.svg?style=flat-square)](https://www.npmjs.com/package/@hawaii-framework/ngx-oidc-implicit)
+[![npm version](https://badge.fury.io/js/@ilionx%2Foauth-client-angular.svg)](https://badge.fury.io/js/@ilionx%2Foauth-client-angular)
 
 # OAuth client for Angular
 
@@ -10,13 +10,13 @@ A wrapper for use with Angular on the [OIDC Oauth Core package](https://www.npmj
 - Supports OpenID Connect Implicit Flow
 - Support Code flow with PKCE
 - Multiple Provider ID's possible in one browser window (scoped tokens)
-- AOT build
+- AOT build, Ivy compatible
 - CSRF Tokens
 
 ## Installation
 
 ```sh
-npm install @ilionx/oauth-client-core @ilionx/oauth-client-angular
+npm install @ilionx/oauth-client-core @ilionx/oauth-client-angular --save-prod
 ```
 
 ## Config
@@ -295,12 +295,12 @@ export class LoginComponent implements OnInit, OnDestroy {
 }
 ```
 
-## Publishing
+## Pull Requests
 
-Publishing is done via CI with a gitflow action: https://github.com/Q24/oauth-client-angular/actions
+You're welcome to open pull-requests on the repo.
 
 
 ## Debug mode
-If you want verbose logging from this package, you can set `config.debug` to `true` in your configuration.
+If you want verbose logging from this package, you can set `debug` property in your config to `true`.
 
-Another option to enable verbose logging is to set a LocalStorage variable `oauth_client_debug` with any value.
+Alternative option to enable verbose logging is to set a LocalStorage variable `oauth_client_debug` with any value.
