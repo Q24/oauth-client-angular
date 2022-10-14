@@ -12,9 +12,16 @@
     "@semantic-release/github",
     "@semantic-release/changelog",
     [
-      "@semantic-release/npm", {
-      "pkgRoot": "./dist"
-    }
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "npm version ${nextRelease.version} --git-tag-version false"
+      }
+    ],
+    [
+      "@semantic-release/npm",
+      {
+        "pkgRoot": "./dist"
+      }
     ],
     [
       "@semantic-release/git",
