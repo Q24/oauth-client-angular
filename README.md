@@ -297,4 +297,4 @@ export class LoginComponent implements OnInit, OnDestroy {
 
 ## Publishing
 
-`npm publish dist`
+Publishing is done via CI with a gitflow action: https://github.com/Q24/oauth-client-angular/actions
