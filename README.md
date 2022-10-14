@@ -298,3 +298,9 @@ export class LoginComponent implements OnInit, OnDestroy {
 ## Publishing
 
 Publishing is done via CI with a gitflow action: https://github.com/Q24/oauth-client-angular/actions
+
+
+## Debug mode
+If you want verbose logging from this package, you can set `config.debug` to `true` in your configuration.
+
+Another option to enable verbose logging is to set a LocalStorage variable `oauth_client_debug` with any value.
