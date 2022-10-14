@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/Q24/oauth-client-angular/compare/v2.0.0...v2.0.1) (2022-10-14)
+
+
+### Bug Fixes
+
+* debug mode in local Storage ([abcc26b](https://github.com/Q24/oauth-client-angular/commit/abcc26bbd18bc0b0769fb5b47e7e137cf33eca72))
+
 # [2.0.0](https://github.com/Q24/oauth-client-angular/compare/v1.2.1...v2.0.0) (2022-10-14)
 
 
