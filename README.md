@@ -294,11 +294,9 @@ export class LoginComponent implements OnInit, OnDestroy {
   }
 }
 ```
-
 ## Pull Requests
 
 You're welcome to open pull-requests on the repo.
-
 
 ## Debug mode
 If you want verbose logging from this package, you can set `debug` property in your config to `true`.
