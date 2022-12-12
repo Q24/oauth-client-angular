@@ -1,3 +1,17 @@
+## [2.0.2-next.2](https://github.com/Q24/oauth-client-angular/compare/v2.0.2-next.1...v2.0.2-next.2) (2022-12-12)
+
+
+### Bug Fixes
+
+* bump core ([d92db51](https://github.com/Q24/oauth-client-angular/commit/d92db5118eb714ca85c44f432b4bba12330b092b))
+
+## [2.0.2-next.1](https://github.com/Q24/oauth-client-angular/compare/v2.0.1...v2.0.2-next.1) (2022-12-12)
+
+
+### Bug Fixes
+
+* iFrame error handling ([206c340](https://github.com/Q24/oauth-client-angular/commit/206c340beff517cc930b21fc44b51ebecff6c0fe))
+
 ## [2.0.1](https://github.com/Q24/oauth-client-angular/compare/v2.0.0...v2.0.1) (2022-10-14)
 
 
