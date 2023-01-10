@@ -16,7 +16,7 @@ A wrapper for use with Angular on the [OIDC Oauth Core package](https://www.npmj
 ## Installation
 
 ```sh
-npm install @ilionx/oauth-client-core @ilionx/oauth-client-angular --save-prod
+npm install @ilionx/oauth-client-angular --save-prod
 ```
 
 ## Config
