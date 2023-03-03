@@ -1,3 +1,12 @@
+# [2.1.0-next.1](https://github.com/Q24/oauth-client-angular/compare/v2.0.2-next.3...v2.1.0-next.1) (2023-03-03)
+
+
+### Features
+
+* package-lock ([cf3170d](https://github.com/Q24/oauth-client-angular/commit/cf3170d1a9ad775a698833f4ce57bd87652b3b99))
+* this time the correct version for NEXT @ilionx/oauth-client-core version ([7e93c85](https://github.com/Q24/oauth-client-angular/commit/7e93c852adca7ea02fddedcabd7fb43e462e4e07))
+* update oauth-client-core version with next version for testing ([5109825](https://github.com/Q24/oauth-client-angular/commit/51098251893271df78efeb419f321945d722807e))
+
 ## [2.0.2-next.3](https://github.com/Q24/oauth-client-angular/compare/v2.0.2-next.2...v2.0.2-next.3) (2022-12-12)
 
 
