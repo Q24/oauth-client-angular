@@ -1,3 +1,10 @@
+# [2.1.0-next.2](https://github.com/Q24/oauth-client-angular/compare/v2.1.0-next.1...v2.1.0-next.2) (2023-03-06)
+
+
+### Bug Fixes
+
+* update oauth-client-core version with 1.4.0-next.2 for testing ([2d71089](https://github.com/Q24/oauth-client-angular/commit/2d7108944b38ab44941b7e176c37f73a3327aad0))
+
 # [2.1.0-next.1](https://github.com/Q24/oauth-client-angular/compare/v2.0.2-next.3...v2.1.0-next.1) (2023-03-03)
 
 
