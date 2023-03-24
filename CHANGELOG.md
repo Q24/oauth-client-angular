@@ -1,3 +1,10 @@
+# [2.1.0-next.5](https://github.com/Q24/oauth-client-angular/compare/v2.1.0-next.4...v2.1.0-next.5) (2023-03-24)
+
+
+### Bug Fixes
+
+* BREAKING proper handling of SilentRefresh function. When no silent Refresh is necessary: return false. If error, use error methods of observer ([0e4bd25](https://github.com/Q24/oauth-client-angular/commit/0e4bd253f9c5bec200ac8be05698130077a88a85))
+
 # [2.1.0-next.4](https://github.com/Q24/oauth-client-angular/compare/v2.1.0-next.3...v2.1.0-next.4) (2023-03-07)
 
 
