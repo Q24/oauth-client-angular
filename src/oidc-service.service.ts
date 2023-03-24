@@ -104,12 +104,12 @@ export class OidcService {
       const token = getStoredAuthResult();
       if (token) {
         lazyRefresh(token).then(
-            () => {
-              observer.next(true);
+            (result) => {
+              observer.next(result);
               observer.complete();
             },
-            () => {
-              observer.next(false);
+            (err) => {
+              observer.error(err);
               observer.complete();
             }
         );
