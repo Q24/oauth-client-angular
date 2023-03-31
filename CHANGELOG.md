@@ -1,3 +1,10 @@
+# [2.1.0-next.6](https://github.com/Q24/oauth-client-angular/compare/v2.1.0-next.5...v2.1.0-next.6) (2023-03-27)
+
+
+### Bug Fixes
+
+* update Core client to get fix for Refresh token ([b751c8e](https://github.com/Q24/oauth-client-angular/commit/b751c8ef7e17077a2f72a87382cee965fc147b5e))
+
 # [2.1.0-next.5](https://github.com/Q24/oauth-client-angular/compare/v2.1.0-next.4...v2.1.0-next.5) (2023-03-24)
 
 
