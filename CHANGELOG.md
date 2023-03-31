@@ -1,3 +1,15 @@
+# [2.1.0-next.7](https://github.com/Q24/oauth-client-angular/compare/v2.1.0-next.6...v2.1.0-next.7) (2023-03-31)
+
+
+### Bug Fixes
+
+* lock file ([17a1fca](https://github.com/Q24/oauth-client-angular/commit/17a1fca8569fb3b28c258129718ce1a91bb00f28))
+
+
+### Features
+
+* add almostExpiredThreshold as option to the silentRefresh method ([3fd0ba8](https://github.com/Q24/oauth-client-angular/commit/3fd0ba8e003332acd14f883b1bee1822afa1d02d))
+
 # [2.1.0-next.6](https://github.com/Q24/oauth-client-angular/compare/v2.1.0-next.5...v2.1.0-next.6) (2023-03-27)
 
 
