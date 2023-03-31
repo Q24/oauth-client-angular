@@ -33,7 +33,7 @@
     "build": "ng-packagr -p ng-package.json -c tsconfig.json"
   },
   "dependencies": {
-    "@ilionx/oauth-client-core": "1.4.0-next.5"
+    "@ilionx/oauth-client-core": "1.4.0-next.6"
   },
   "devDependencies": {
     "@angular/common": "^12.0.0",
