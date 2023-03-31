@@ -99,11 +99,11 @@ export class OidcService {
     });
   }
 
-  silentRefresh(): Observable<boolean> {
+  silentRefresh(almostExpiredThreshold?: number): Observable<boolean> {
     return new Observable<boolean>((observer: Observer<boolean>) => {
       const token = getStoredAuthResult();
       if (token) {
-        lazyRefresh(token).then(
+        lazyRefresh(token, {almostExpiredThreshold}).then(
             (result) => {
               observer.next(result);
               observer.complete();
